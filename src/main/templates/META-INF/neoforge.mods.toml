@@ -1,0 +1,33 @@
+modLoader="kotlinforforge"
+loaderVersion="[${kff_version},)"
+license="MIT"
+issueTrackerURL="https://github.com/hybridlabs/hybrid_delights/issues"
+
+[[mods]]
+modId="${modid}"
+version="${version}"
+displayName="Hybrid Delights"
+displayURL="https://github.com/hybridlabs/hybrid_delights"
+logoFile="hybrid_delights.png"
+credits="MysticKoko, Aqua, Andante, Eggo, Ragno, murphy slaw, vanutp"
+authors="Hybrid Labs"
+description='''
+A mod that integrates between HybridLabs' mods and various cooking mods
+'''
+
+[[mixins]]
+config="${modid}.mixins.json"
+
+[[dependencies.${modid}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${modid}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"

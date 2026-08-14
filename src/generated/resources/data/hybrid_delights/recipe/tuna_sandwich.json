@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hybrid_aquatic:tuna"
+    },
+    {
+      "tag": "c:foods/bread"
+    },
+    {
+      "tag": "c:crops/tomato"
+    },
+    {
+      "tag": "c:foods/leafy_green"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "hybrid_delights:tuna_sandwich"
+  }
+}
